@@ -1,72 +1,40 @@
-# 🌍 TrailShare  
-*A social travel diary where paths meet stories.*  
+# Welcome to your Expo app 👋
 
----
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## ✨ What is TrailShare?  
-TrailShare is a mobile app (iOS & Android) built with **React Native** that lets travelers:  
+## Get started
 
-- 🗺️ **Record trips** by tracking GPS from start to finish.  
-- 📸 **Capture photos/videos** pinned to the exact location on the path.  
-- 🗂️ **Generate interactive trip maps** with routes, stats, and geotagged memories.  
-- 🌐 **Share journeys** with friends or the community.  
-- 🔍 **Explore nearby trips** and retrace the steps of others.  
+1. Install dependencies
 
-Think of it as a **travel diary on a map** — a way to relive journeys and inspire others.  
+   ```bash
+   npm install
+   ```
 
----
+2. Start the app
 
-## 🚧 Project Status  
-🚀 **Currently in active development**  
+   ```bash
+   npx expo start
+   ```
 
-Planned features for the MVP:  
-- [ ] Authentication (Supabase OAuth: Google & Apple)  
-- [ ] GPS trip recording (start/stop, background tracking)  
-- [ ] Live route drawing on interactive maps (MapTiler + MapLibre)  
-- [ ] Media capture (camera + attach to path)  
-- [ ] Offline-first support (local caching + sync on reconnect)  
-- [ ] Trip summary (distance, duration, elevation)  
-- [ ] Shareable trip links  
-- [ ] Explore nearby trips  
+In the output, you'll find options to open the app in a
 
-Future ideas:  
-- AI-generated trip highlights  
-- Private “blurred” zones for privacy (home/work masking)  
-- Gamification (badges, stats, challenges)  
-- Augmented reality exploration mode  
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
----
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## 🛠️ Tech Stack  
+## Learn more
 
-### Frontend  
-- **React Native (TypeScript)**  
-- **MapLibre GL** + MapTiler for maps  
-- **Expo Location & Task Manager** for background GPS tracking  
-- **Vision Camera** for capturing geotagged media  
-- **Realm / SQLite** for offline queue & caching  
+To learn more about developing your project with Expo, look at the following resources:
 
-### Backend  
-- **Supabase (PostgreSQL + PostGIS + Auth)**  
-- **AWS S3** for media storage (presigned uploads)  
-- **Supabase Edge Functions** for presigned URL generation & sync logic  
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
----
+## Join the community
 
-## 🌟 Why This Project?
+Join our community of developers creating universal apps.
 
-This project is not only about travel, it’s about **engineering challenges:**
-- Building an **offline-first, sync-safe architecture.**
-- Handling **geospatial queries** at scale (PostGIS).
-- Managing **media uploads and optimization pipelines.**
-- Creating a **polished** UX for travelers and explorers.
-
-It’s a playground for mobile development, mapping, and backend engineering.
-
----
-
-## 📫 Contact
-
-Built by [Florian Griffon](https://www.linkedin.com/in/floriangriffon/)
-- 💼 Looking for opportunities in mobile & full-stack engineering.
-- 📧 Reach me at: florian.griffon@epitech.eu
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
